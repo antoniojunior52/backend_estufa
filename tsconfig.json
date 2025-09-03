@@ -1,0 +1,26 @@
+{
+
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "esnext",
+    "types": [],
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  
+  },
+  "ts-node": {
+    "esm": true
+  },
+   "include": ["src/**/*", "src/index.ts"]
+}
