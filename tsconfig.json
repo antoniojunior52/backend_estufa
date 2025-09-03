@@ -1,5 +1,4 @@
 {
-
   "compilerOptions": {
     "module": "nodenext",
     "target": "esnext",
@@ -10,17 +9,15 @@
     "noUncheckedIndexedAccess": true,
     "strict": true,
     "exactOptionalPropertyTypes": true,
-    "jsx": "react-jsx",
-    "verbatimModuleSyntax": false,
     "isolatedModules": true,
-    //"noUncheckedSideEffectImports": true,
+    "allowImportingTsExtensions": true, 
+    "emitDeclarationOnly": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-    "outDir": "./dist"  
-  
+    "outDir": "./dist"
   },
   "ts-node": {
     "esm": true
   },
-   "include": ["src/**/*", "src/index.ts"]
+   "include": ["src/**/*"]
 }
