@@ -5,7 +5,7 @@ import {
   getUserById,
   updateUser,
   deleteUser,
-} from "../controller/userController.ts"; // Caminho relativo da pasta routes para a pasta controller
+} from "../controller/userController.ts";
 
 const router = Router();
 

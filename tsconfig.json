@@ -11,7 +11,8 @@
     "exactOptionalPropertyTypes": true,
     "isolatedModules": true,
     "allowImportingTsExtensions": true,
-    "emitDeclarationOnly": true, // Adicione esta linha
+    "emitDeclarationOnly": true,
+    "rootDir": "./src", 
     "moduleDetection": "force",
     "skipLibCheck": true,
     "outDir": "./dist"
