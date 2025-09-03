@@ -1,8 +1,9 @@
 import express, { Request, Response } from 'express';
-import userRoutes from '../backend_estufa/src/routes/userRoutes.ts'; // Caminho corrigido com .ts
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
+// Use o caminho correto a partir da raiz, incluindo src e a extensão .ts
+import userRoutes from './src/routes/userRoutes.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
