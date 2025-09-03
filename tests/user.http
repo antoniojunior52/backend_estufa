@@ -1,0 +1,41 @@
+### Teste de Criação de Usuário (POST)
+# URL: http://localhost:3000/users
+# Método: POST
+# Descrição: Cria um novo usuário. A resposta retorna o UID que será necessário para os testes seguintes.
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Alex Junior",
+  "email": "alex.junior@exemplo.com",
+  "password": "senha123"
+}
+
+### Teste de Listagem de Usuários (GET)
+# URL: http://localhost:3000/users
+# Método: GET
+# Descrição: Retorna uma lista com todos os usuários.
+GET http://localhost:3000/users
+
+### Teste de Busca de Usuário por ID (GET)
+# URL: http://localhost:3000/users/{{uid_do_usuario}}
+# Método: GET
+# Descrição: Retorna um único usuário pelo seu UID.
+GET http://localhost:3000/users/{{}}
+
+### Teste de Atualização de Usuário (PUT)
+# URL: http://localhost:3000/users/{{uid_do_usuario}}
+# Método: PUT
+# Descrição: Atualiza o nome ou a senha de um usuário existente.
+PUT http://localhost:3000/users/{{}}
+Content-Type: application/json
+
+{
+  "name": "Alex Updated"
+}
+
+### Teste de Deleção de Usuário (DELETE)
+# URL: http://localhost:3000/users/{{uid_do_usuario}}
+# Método: DELETE
+# Descrição: Deleta um usuário.
+DELETE http://localhost:3000/users/{{}}
